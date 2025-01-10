@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(245, 245, 245);
+    font-family: "Fira Sans", serif;
+}
+
+/*Header part*/
+.header{
+    max-width: 80%;
+    margin: 20px auto 40px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav h2{
+    color: rgb(14, 14, 14);
+    font-size: 28px;
+    font-weight: 700;
+}
+.btn{
+    color: green;
+    border: 1px solid rgb(0, 106, 80);
+    font-size: 17px;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 600;
+}
+
+/* Hero */
+.hero{
+    display: flex;
+    gap: 30px;
+    padding: 60px;
+    margin: 30px 0 60px 0;
+    align-items: center;
+    border-radius: 24px;
+    background-color: rgb(198, 228, 214);
+    
+    
+}
+.hero-desc h4{
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 500;
+    font-size: 22px;
+    margin: 15px 0;
+
+}
+.hero-desc h1{
+    margin: 15px 0;
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.hero-btn{
+    background-color: rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 17px;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+}
