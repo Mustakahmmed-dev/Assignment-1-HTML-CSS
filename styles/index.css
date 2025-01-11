@@ -331,12 +331,14 @@ table td{
 #d-amount{
     display: block;
     padding: 20px 40px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
     width: 100%;
     text-align: center;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: rgba(14, 14, 14, 0.3);
+    outline: none;
 }
 .d-submit-btn{
     padding: 15px 30px;
@@ -346,4 +348,81 @@ table td{
     font-size: 16px;
     color: rgb(255, 255, 255);
     cursor: pointer;
+    font-weight: bold;
+}
+
+.subscribe-newsletter{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+}
+
+.subscribe-details{
+    padding: 80px 100px;   
+    text-align: center; 
+
+}
+.subscribe-details h1{
+    color: rgb(14, 14, 14);
+    font-size: 35px;
+    font-weight: 700;
+    margin: 16px 0;
+
+}
+.subscribe-details p{
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    font-size: 15px;
+ 
+}
+
+.subscribe-info-container{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.subscribe-info-container input{
+    padding: 15px 30px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    outline: none;
+    width: 500px;
+}
+.subscribe-info-container button{
+    padding: 15px 30px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 106, 80);
+
+}
+
+/* Footer parts */
+.footer{
+    background-color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+.foo-container{
+    text-align: center;
+    max-width: 80%;
+    margin:  0 auto;
+    padding: 60px 0;
+}
+.foo-container h1{
+    border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+    padding: 15px 0;
+}
+.social-media-icons{
+    margin-top: 40px;
+}
+.facebook-blue{
+    color: blue;
+}
+.instagram-hotpink{
+    color: hotpink;
+}
+.social-media-icons i{
+    font-size: 24px;
+    margin-right: 15px;
 }
