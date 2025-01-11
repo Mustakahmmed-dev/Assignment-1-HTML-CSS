@@ -91,8 +91,12 @@ body{
     padding: 24px;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 15px;
-    
+    border-radius: 15px; 
+}
+.pillar-card:hover{
+    transition: 0.3s;
+    scale: 1.01;
+    background-color: rgb(198, 228, 214);;
 }
 .pillar-card h3{
     margin: 12px 0;
@@ -135,6 +139,7 @@ body{
     width: 400px;
     padding: 24px;
     border-radius: 15px;
+    background-color: rgb(255, 255, 255);
 }
 .digital-transformation{
     background-color: rgba(84, 144, 245, 0.2);
@@ -320,6 +325,11 @@ table td{
     color: rgba(14, 14, 14, .8);
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
+.donation-card:hover{
+    transition: 0.3s;
+    background-color: rgb(198, 228, 214);
+    cursor: pointer;
+}
 .donation-blue{
     background-color: rgb(198, 228, 214);
 }
@@ -388,6 +398,9 @@ table td{
     border: none;
     outline: none;
     width: 500px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 14px;
+    font-weight: 400;
 }
 .subscribe-info-container button{
     padding: 15px 30px;
@@ -395,7 +408,9 @@ table td{
     border: none;
     outline: none;
     background-color: rgb(0, 106, 80);
-
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 17px;
 }
 
 /* Footer parts */
@@ -425,4 +440,19 @@ table td{
 .social-media-icons i{
     font-size: 24px;
     margin-right: 15px;
+}
+
+/* Other styles for major elements */
+button:hover{
+    transition: 0.3s;
+    background-color: orange;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.vision-btn:hover{
+    transition: 0.3s;
+    background: transparent;
+    border: 1px solid gray;
+    cursor: pointer;
+    color: black;
 }
