@@ -192,3 +192,47 @@ background-color: rgb(9, 161, 92);;
     background-position: top left;
     padding: 20px 0;
 }
+
+/* your-opinion-matters */
+.your-opinion-matters{
+    max-width: 80%;
+    margin: 0 auto;
+    color: rgb(14, 14, 14);
+}
+.opinion-matters-container{
+    margin: 25px 0;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 25px;
+}
+/* table */
+table, th, td{
+    text-align: left;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+}
+table td{
+    width: 100%;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.th-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-bottom: none;
+    padding: 20px;
+    background-color: rgb(198, 228, 214);
+}
+.table-btn{
+    padding: 10px 15px;
+    text-wrap: nowrap;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background-color: rgb(198, 228, 214);
+    font-weight: bold;
+}
+.table-btn span{
+    margin-left: 4px;
+}
